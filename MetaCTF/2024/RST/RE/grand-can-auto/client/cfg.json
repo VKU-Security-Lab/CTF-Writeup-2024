@@ -1,0 +1,11 @@
+{
+    "windowed": 1,
+    "width": 1280,
+    "height": 720,
+    "fps": 60,
+    "resource_path": "./res",
+    "network": true,
+    "ip": "grand-can-auto.rstcon-2024-codelab.kctf.cloud",
+    "port": 1337,
+    "debug": false
+}

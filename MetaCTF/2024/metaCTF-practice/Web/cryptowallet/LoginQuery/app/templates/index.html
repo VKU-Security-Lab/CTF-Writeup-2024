@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.3.2/simplex/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>BlockLock | Crypto Wallet</title>
+  </head>
+
+  <body>
+    <div class="container">
+      
+      <div class="col-md-12 mt-5 pb-2">
+        <h1 class="text-center mb-4 text-primary"><i class="fa-solid fa-lock"></i> BlockLock</h1>
+        <h3 class="text-center mb-3 mt-3"><b>Secure Online Crypto Wallet</b></h3>
+      </div>
+
+      <div class="col-md-6 offset-md-3 col-lg-4 offset-lg-4 mt-3 py-4 px-3 border border-2 rounded" id="login_panel">
+        <h4 class="text-center mb-4">Login to access your wallet</h4>
+        <form class="form-inline" action="javascript:login()">
+          <div class="form-group">
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" name="username" id="username" placeholder="Enter username" value="" required>
+              <label>Username</label>
+            </div>
+            <div class="form-floating">
+              <input type="password" class="form-control" name="password" id="password" placeholder="Enter password" required>
+              <label>Password</label>
+            </div>
+          </div>
+          <div class="text-center">
+            <button class="btn btn btn-primary mt-4" type="submit">Login</button>
+          </div>
+        </form>
+        <div id="result" class="mt-4" style="display:none;"></div>
+      </div>
+
+      <div class="col-md-6 offset-md-3 col-lg-4 offset-lg-4 mt-3 py-4 px-3 border border-2 rounded" id="wallet_panel" style="display:none">
+        <h4 class="text-center mb-4">Your Wallet</h4>
+        <p>Welcome <u><span id="username_value"></span></u>!</p>
+        <p>Your current balance is <span id="balance_value"></span> BTC.</p>
+        <p>Your public bitcoin wallet address is <br><code id="public_address_value"></code></p>
+        <p>Your private wallet key is <br><code id="private_key_value"></code></p>
+        <div class="text-center">
+          <a class="btn btn btn-primary mt-4" type="submit" href="/">Logout</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+
+    <script>
+      async function login() {
+        $("#result").fadeOut("fast");
+
+        response = await fetch("/login", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+              "username": $("#username").val(),
+              "password": $("#password").val()
+            }),
+          });
+        
+        data = await response.json();
+
+        if (data["error"]) {
+          $("#result").html('<div class="alert mb-0 alert-danger">' + data["message"] + '</div>');
+          $("#result").fadeIn();
+        } else {
+          $("#username_value").html(data["username"]);
+          $("#balance_value").html(data["balance"]);
+          $("#public_address_value").html(data["public_btc_address"]);
+          $("#private_key_value").html(data["private_btc_key"]);
+          $("#login_panel").slideUp();
+          $("#wallet_panel").slideDown();
+        }
+      }
+    </script>
+  </body>
+</html>

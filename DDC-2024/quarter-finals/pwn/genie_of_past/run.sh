@@ -1,0 +1,1 @@
+timeout 120 ./genie_of_past

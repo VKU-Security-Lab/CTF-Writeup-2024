@@ -1,0 +1,1264 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000       10.3.2.11             34.239.233.47         TCP      60     691 → 2049 [SYN] Seq=0 Win=64960 Len=0 MSS=1120 SACK_PERM TSval=2453432948 TSecr=0 WS=1024
+
+Frame 1: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.009397       34.239.233.47         10.3.2.11             TCP      60     2049 → 691 [SYN, ACK] Seq=0 Ack=1 Win=26847 Len=0 MSS=1460 SACK_PERM TSval=3126898444 TSecr=2453432948 WS=128
+
+Frame 2: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.009432       10.3.2.11             34.239.233.47         TCP      52     691 → 2049 [ACK] Seq=1 Ack=1 Win=65536 Len=0 TSval=2453432958 TSecr=3126898444
+
+Frame 3: 52 bytes on wire (416 bits), 52 bytes captured (416 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.009461       10.3.2.11             34.239.233.47         NFS      96     V4 NULL Call (Reply In 6)
+
+Frame 4: 96 bytes on wire (768 bits), 96 bytes captured (768 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 1, Ack: 1, Len: 44
+Remote Procedure Call, Type:Call XID:0x60d9aea3
+Network File System
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 0.017443       34.239.233.47         10.3.2.11             TCP      52     2049 → 691 [ACK] Seq=1 Ack=45 Win=26880 Len=0 TSval=3126898452 TSecr=2453432958
+
+Frame 5: 52 bytes on wire (416 bits), 52 bytes captured (416 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 1, Ack: 45, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 0.017466       34.239.233.47         10.3.2.11             NFS      80     V4 NULL Reply (Call In 4)
+
+Frame 6: 80 bytes on wire (640 bits), 80 bytes captured (640 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 1, Ack: 45, Len: 28
+Remote Procedure Call, Type:Reply XID:0x60d9aea3
+Network File System
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 0.017477       10.3.2.11             34.239.233.47         TCP      52     691 → 2049 [ACK] Seq=45 Ack=29 Win=65536 Len=0 TSval=2453432966 TSecr=3126898453
+
+Frame 7: 52 bytes on wire (416 bits), 52 bytes captured (416 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 45, Ack: 29, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 0.017670       10.3.2.11             34.239.233.47         NFS      308    V4 Call (Reply In 9) EXCHANGE_ID
+
+Frame 8: 308 bytes on wire (2464 bits), 308 bytes captured (2464 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 45, Ack: 29, Len: 256
+Remote Procedure Call, Type:Call XID:0x61d9aea3
+Network File System, Ops(1): EXCHANGE_ID
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 0.026756       34.239.233.47         10.3.2.11             NFS      172    V4 Reply (Call In 8) EXCHANGE_ID
+
+Frame 9: 172 bytes on wire (1376 bits), 172 bytes captured (1376 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 29, Ack: 301, Len: 120
+Remote Procedure Call, Type:Reply XID:0x61d9aea3
+Network File System, Ops(1): EXCHANGE_ID
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 0.027031       10.3.2.11             34.239.233.47         NFS      308    V4 Call (Reply In 11) EXCHANGE_ID
+
+Frame 10: 308 bytes on wire (2464 bits), 308 bytes captured (2464 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 301, Ack: 149, Len: 256
+Remote Procedure Call, Type:Call XID:0x62d9aea3
+Network File System, Ops(1): EXCHANGE_ID
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 0.034415       34.239.233.47         10.3.2.11             NFS      172    V4 Reply (Call In 10) EXCHANGE_ID
+
+Frame 11: 172 bytes on wire (1376 bits), 172 bytes captured (1376 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 149, Ack: 557, Len: 120
+Remote Procedure Call, Type:Reply XID:0x62d9aea3
+Network File System, Ops(1): EXCHANGE_ID
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 0.034497       10.3.2.11             34.239.233.47         NFS      260    V4 Call (Reply In 13) CREATE_SESSION
+
+Frame 12: 260 bytes on wire (2080 bits), 260 bytes captured (2080 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 557, Ack: 269, Len: 208
+Remote Procedure Call, Type:Call XID:0x63d9aea3
+Network File System, Ops(1): CREATE_SESSION
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 0.043450       34.239.233.47         10.3.2.11             NFS      180    V4 Reply (Call In 12) CREATE_SESSION
+
+Frame 13: 180 bytes on wire (1440 bits), 180 bytes captured (1440 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 269, Ack: 765, Len: 128
+Remote Procedure Call, Type:Reply XID:0x63d9aea3
+Network File System, Ops(1): CREATE_SESSION
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 0.043559       10.3.2.11             34.239.233.47         NFS      184    V4 Call (Reply In 15) RECLAIM_COMPLETE
+
+Frame 14: 184 bytes on wire (1472 bits), 184 bytes captured (1472 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 765, Ack: 397, Len: 132
+Remote Procedure Call, Type:Call XID:0x64d9aea3
+Network File System, Ops(2): SEQUENCE, RECLAIM_COMPLETE
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 0.059640       34.239.233.47         10.3.2.11             NFS      144    V4 Reply (Call In 14) RECLAIM_COMPLETE
+
+Frame 15: 144 bytes on wire (1152 bits), 144 bytes captured (1152 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 397, Ack: 897, Len: 92
+Remote Procedure Call, Type:Reply XID:0x64d9aea3
+Network File System, Ops(2): SEQUENCE RECLAIM_COMPLETE
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 0.059860       10.3.2.11             34.239.233.47         NFS      192    V4 Call (Reply In 17) SECINFO_NO_NAME
+
+Frame 16: 192 bytes on wire (1536 bits), 192 bytes captured (1536 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 897, Ack: 489, Len: 140
+Remote Procedure Call, Type:Call XID:0x65d9aea3
+Network File System, Ops(3): SEQUENCE, PUTROOTFH, SECINFO_NO_NAME
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 0.066555       34.239.233.47         10.3.2.11             NFS      160    V4 Reply (Call In 16) SECINFO_NO_NAME
+
+Frame 17: 160 bytes on wire (1280 bits), 160 bytes captured (1280 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 489, Ack: 1037, Len: 108
+Remote Procedure Call, Type:Reply XID:0x65d9aea3
+Network File System, Ops(3): SEQUENCE PUTROOTFH SECINFO_NO_NAME
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 0.066640       10.3.2.11             34.239.233.47         NFS      204    V4 Call (Reply In 19) PUTROOTFH | GETATTR
+
+Frame 18: 204 bytes on wire (1632 bits), 204 bytes captured (1632 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 1037, Ack: 597, Len: 152
+Remote Procedure Call, Type:Call XID:0x66d9aea3
+Network File System, Ops(4): SEQUENCE, PUTROOTFH, GETFH, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 0.072478       34.239.233.47         10.3.2.11             NFS      316    V4 Reply (Call In 18) PUTROOTFH | GETATTR
+
+Frame 19: 316 bytes on wire (2528 bits), 316 bytes captured (2528 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 597, Ack: 1189, Len: 264
+Remote Procedure Call, Type:Reply XID:0x66d9aea3
+Network File System, Ops(4): SEQUENCE PUTROOTFH GETFH GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 0.072554       10.3.2.11             34.239.233.47         NFS      216    V4 Call (Reply In 21) GETATTR FH: 0x62d40c52
+
+Frame 20: 216 bytes on wire (1728 bits), 216 bytes captured (1728 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 1189, Ack: 861, Len: 164
+Remote Procedure Call, Type:Call XID:0x67d9aea3
+Network File System, Ops(3): SEQUENCE, PUTFH, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 0.081489       34.239.233.47         10.3.2.11             NFS      220    V4 Reply (Call In 20) GETATTR
+
+Frame 21: 220 bytes on wire (1760 bits), 220 bytes captured (1760 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 861, Ack: 1353, Len: 168
+Remote Procedure Call, Type:Reply XID:0x67d9aea3
+Network File System, Ops(3): SEQUENCE PUTFH GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     22 0.081592       10.3.2.11             34.239.233.47         NFS      216    V4 Call (Reply In 23) GETATTR FH: 0x62d40c52
+
+Frame 22: 216 bytes on wire (1728 bits), 216 bytes captured (1728 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 1353, Ack: 1029, Len: 164
+Remote Procedure Call, Type:Call XID:0x68d9aea3
+Network File System, Ops(3): SEQUENCE, PUTFH, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     23 0.089590       34.239.233.47         10.3.2.11             NFS      224    V4 Reply (Call In 22) GETATTR
+
+Frame 23: 224 bytes on wire (1792 bits), 224 bytes captured (1792 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 1029, Ack: 1517, Len: 172
+Remote Procedure Call, Type:Reply XID:0x68d9aea3
+Network File System, Ops(3): SEQUENCE PUTFH GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     24 0.089674       10.3.2.11             34.239.233.47         NFS      216    V4 Call (Reply In 25) GETATTR FH: 0x62d40c52
+
+Frame 24: 216 bytes on wire (1728 bits), 216 bytes captured (1728 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 1517, Ack: 1201, Len: 164
+Remote Procedure Call, Type:Call XID:0x69d9aea3
+Network File System, Ops(3): SEQUENCE, PUTFH, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     25 0.096547       34.239.233.47         10.3.2.11             NFS      220    V4 Reply (Call In 24) GETATTR
+
+Frame 25: 220 bytes on wire (1760 bits), 220 bytes captured (1760 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 1201, Ack: 1681, Len: 168
+Remote Procedure Call, Type:Reply XID:0x69d9aea3
+Network File System, Ops(3): SEQUENCE PUTFH GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     26 0.096672       10.3.2.11             34.239.233.47         NFS      216    V4 Call (Reply In 27) GETATTR FH: 0x62d40c52
+
+Frame 26: 216 bytes on wire (1728 bits), 216 bytes captured (1728 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 1681, Ack: 1369, Len: 164
+Remote Procedure Call, Type:Call XID:0x6ad9aea3
+Network File System, Ops(3): SEQUENCE, PUTFH, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     27 0.103538       34.239.233.47         10.3.2.11             NFS      224    V4 Reply (Call In 26) GETATTR
+
+Frame 27: 224 bytes on wire (1792 bits), 224 bytes captured (1792 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 1369, Ack: 1845, Len: 172
+Remote Procedure Call, Type:Reply XID:0x6ad9aea3
+Network File System, Ops(3): SEQUENCE PUTFH GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     28 0.103678       10.3.2.11             34.239.233.47         NFS      208    V4 Call (Reply In 29) GETATTR FH: 0x62d40c52
+
+Frame 28: 208 bytes on wire (1664 bits), 208 bytes captured (1664 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 1845, Ack: 1541, Len: 156
+Remote Procedure Call, Type:Call XID:0x6bd9aea3
+Network File System, Ops(3): SEQUENCE, PUTFH, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     29 0.113601       34.239.233.47         10.3.2.11             NFS      172    V4 Reply (Call In 28) GETATTR
+
+Frame 29: 172 bytes on wire (1376 bits), 172 bytes captured (1376 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 1541, Ack: 2001, Len: 120
+Remote Procedure Call, Type:Reply XID:0x6bd9aea3
+Network File System, Ops(3): SEQUENCE PUTFH GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     30 0.113805       10.3.2.11             34.239.233.47         NFS      204    V4 Call (Reply In 31) GETATTR FH: 0x62d40c52
+
+Frame 30: 204 bytes on wire (1632 bits), 204 bytes captured (1632 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 2001, Ack: 1661, Len: 152
+Remote Procedure Call, Type:Call XID:0x6cd9aea3
+Network File System, Ops(3): SEQUENCE, PUTFH, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     31 0.121627       34.239.233.47         10.3.2.11             NFS      188    V4 Reply (Call In 30) GETATTR
+
+Frame 31: 188 bytes on wire (1504 bits), 188 bytes captured (1504 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 1661, Ack: 2153, Len: 136
+Remote Procedure Call, Type:Reply XID:0x6cd9aea3
+Network File System, Ops(3): SEQUENCE PUTFH GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     32 0.121966       10.3.2.11             34.239.233.47         NFS      216    V4 Call (Reply In 33) GETATTR FH: 0x62d40c52
+
+Frame 32: 216 bytes on wire (1728 bits), 216 bytes captured (1728 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 2153, Ack: 1797, Len: 164
+Remote Procedure Call, Type:Call XID:0x6dd9aea3
+Network File System, Ops(3): SEQUENCE, PUTFH, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     33 0.129025       34.239.233.47         10.3.2.11             NFS      220    V4 Reply (Call In 32) GETATTR
+
+Frame 33: 220 bytes on wire (1760 bits), 220 bytes captured (1760 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 1797, Ack: 2317, Len: 168
+Remote Procedure Call, Type:Reply XID:0x6dd9aea3
+Network File System, Ops(3): SEQUENCE PUTFH GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     34 0.129303       10.3.2.11             34.239.233.47         NFS      212    V4 Call (Reply In 35) GETATTR FH: 0x62d40c52
+
+Frame 34: 212 bytes on wire (1696 bits), 212 bytes captured (1696 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 2317, Ack: 1965, Len: 160
+Remote Procedure Call, Type:Call XID:0x6ed9aea3
+Network File System, Ops(3): SEQUENCE, PUTFH, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     35 0.136697       34.239.233.47         10.3.2.11             NFS      296    V4 Reply (Call In 34) GETATTR
+
+Frame 35: 296 bytes on wire (2368 bits), 296 bytes captured (2368 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 1965, Ack: 2477, Len: 244
+Remote Procedure Call, Type:Reply XID:0x6ed9aea3
+Network File System, Ops(3): SEQUENCE PUTFH GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     36 0.137004       10.3.2.11             34.239.233.47         NFS      220    V4 Call (Reply In 37) ACCESS FH: 0x62d40c52, [Check: RD LU MD XT DL XAR XAW XAL]
+
+Frame 36: 220 bytes on wire (1760 bits), 220 bytes captured (1760 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 2477, Ack: 2209, Len: 168
+Remote Procedure Call, Type:Call XID:0x6fd9aea3
+Network File System, Ops(4): SEQUENCE, PUTFH, ACCESS, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     37 0.143873       34.239.233.47         10.3.2.11             NFS      224    V4 Reply (Call In 36) ACCESS, [Access Denied: MD XT DL XAW], [Allowed: RD LU XAR XAL]
+
+Frame 37: 224 bytes on wire (1792 bits), 224 bytes captured (1792 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 2209, Ack: 2645, Len: 172
+Remote Procedure Call, Type:Reply XID:0x6fd9aea3
+Network File System, Ops(4): SEQUENCE PUTFH ACCESS GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     38 0.144165       10.3.2.11             34.239.233.47         NFS      228    V4 Call (Reply In 39) LOOKUP DH: 0x62d40c52/mnt
+
+Frame 38: 228 bytes on wire (1824 bits), 228 bytes captured (1824 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 2645, Ack: 2381, Len: 176
+Remote Procedure Call, Type:Call XID:0x70d9aea3
+Network File System, Ops(5): SEQUENCE, PUTFH, LOOKUP, GETFH, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     39 0.151694       34.239.233.47         10.3.2.11             NFS      344    V4 Reply (Call In 38) LOOKUP
+
+Frame 39: 344 bytes on wire (2752 bits), 344 bytes captured (2752 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 2381, Ack: 2821, Len: 292
+Remote Procedure Call, Type:Reply XID:0x70d9aea3
+Network File System, Ops(5): SEQUENCE PUTFH LOOKUP GETFH GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     40 0.151940       10.3.2.11             34.239.233.47         NFS      228    V4 Call (Reply In 41) LOOKUP DH: 0x62d40c52/mnt
+
+Frame 40: 228 bytes on wire (1824 bits), 228 bytes captured (1824 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 2821, Ack: 2673, Len: 176
+Remote Procedure Call, Type:Call XID:0x71d9aea3
+Network File System, Ops(5): SEQUENCE, PUTFH, LOOKUP, GETFH, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     41 0.160688       34.239.233.47         10.3.2.11             NFS      344    V4 Reply (Call In 40) LOOKUP
+
+Frame 41: 344 bytes on wire (2752 bits), 344 bytes captured (2752 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 2673, Ack: 2997, Len: 292
+Remote Procedure Call, Type:Reply XID:0x71d9aea3
+Network File System, Ops(5): SEQUENCE PUTFH LOOKUP GETFH GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     42 0.161095       10.3.2.11             34.239.233.47         NFS      236    V4 Call (Reply In 43) GETATTR FH: 0x15373615
+
+Frame 42: 236 bytes on wire (1888 bits), 236 bytes captured (1888 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 2997, Ack: 2965, Len: 184
+Remote Procedure Call, Type:Call XID:0x72d9aea3
+Network File System, Ops(3): SEQUENCE, PUTFH, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     43 0.169671       34.239.233.47         10.3.2.11             NFS      220    V4 Reply (Call In 42) GETATTR
+
+Frame 43: 220 bytes on wire (1760 bits), 220 bytes captured (1760 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 2965, Ack: 3181, Len: 168
+Remote Procedure Call, Type:Reply XID:0x72d9aea3
+Network File System, Ops(3): SEQUENCE PUTFH GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     44 0.169860       10.3.2.11             34.239.233.47         NFS      236    V4 Call (Reply In 45) GETATTR FH: 0x15373615
+
+Frame 44: 236 bytes on wire (1888 bits), 236 bytes captured (1888 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 3181, Ack: 3133, Len: 184
+Remote Procedure Call, Type:Call XID:0x73d9aea3
+Network File System, Ops(3): SEQUENCE, PUTFH, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     45 0.178618       34.239.233.47         10.3.2.11             NFS      224    V4 Reply (Call In 44) GETATTR
+
+Frame 45: 224 bytes on wire (1792 bits), 224 bytes captured (1792 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 3133, Ack: 3365, Len: 172
+Remote Procedure Call, Type:Reply XID:0x73d9aea3
+Network File System, Ops(3): SEQUENCE PUTFH GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     46 0.178798       10.3.2.11             34.239.233.47         NFS      228    V4 Call (Reply In 47) GETATTR FH: 0x15373615
+
+Frame 46: 228 bytes on wire (1824 bits), 228 bytes captured (1824 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 3365, Ack: 3305, Len: 176
+Remote Procedure Call, Type:Call XID:0x74d9aea3
+Network File System, Ops(3): SEQUENCE, PUTFH, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     47 0.186686       34.239.233.47         10.3.2.11             NFS      172    V4 Reply (Call In 46) GETATTR
+
+Frame 47: 172 bytes on wire (1376 bits), 172 bytes captured (1376 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 3305, Ack: 3541, Len: 120
+Remote Procedure Call, Type:Reply XID:0x74d9aea3
+Network File System, Ops(3): SEQUENCE PUTFH GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     48 0.186968       10.3.2.11             34.239.233.47         NFS      224    V4 Call (Reply In 49) GETATTR FH: 0x15373615
+
+Frame 48: 224 bytes on wire (1792 bits), 224 bytes captured (1792 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 3541, Ack: 3425, Len: 172
+Remote Procedure Call, Type:Call XID:0x75d9aea3
+Network File System, Ops(3): SEQUENCE, PUTFH, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     49 0.192675       34.239.233.47         10.3.2.11             NFS      196    V4 Reply (Call In 48) GETATTR
+
+Frame 49: 196 bytes on wire (1568 bits), 196 bytes captured (1568 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 3425, Ack: 3713, Len: 144
+Remote Procedure Call, Type:Reply XID:0x75d9aea3
+Network File System, Ops(3): SEQUENCE PUTFH GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     50 0.193172       10.3.2.11             34.239.233.47         NFS      236    V4 Call (Reply In 51) GETATTR FH: 0x15373615
+
+Frame 50: 236 bytes on wire (1888 bits), 236 bytes captured (1888 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 3713, Ack: 3569, Len: 184
+Remote Procedure Call, Type:Call XID:0x76d9aea3
+Network File System, Ops(3): SEQUENCE, PUTFH, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     51 0.199775       34.239.233.47         10.3.2.11             NFS      220    V4 Reply (Call In 50) GETATTR
+
+Frame 51: 220 bytes on wire (1760 bits), 220 bytes captured (1760 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 3569, Ack: 3897, Len: 168
+Remote Procedure Call, Type:Reply XID:0x76d9aea3
+Network File System, Ops(3): SEQUENCE PUTFH GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     52 0.200055       10.3.2.11             34.239.233.47         NFS      232    V4 Call (Reply In 53) GETATTR FH: 0x15373615
+
+Frame 52: 232 bytes on wire (1856 bits), 232 bytes captured (1856 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 3897, Ack: 3737, Len: 180
+Remote Procedure Call, Type:Call XID:0x77d9aea3
+Network File System, Ops(3): SEQUENCE, PUTFH, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     53 0.207753       34.239.233.47         10.3.2.11             NFS      296    V4 Reply (Call In 52) GETATTR
+
+Frame 53: 296 bytes on wire (2368 bits), 296 bytes captured (2368 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 3737, Ack: 4077, Len: 244
+Remote Procedure Call, Type:Reply XID:0x77d9aea3
+Network File System, Ops(3): SEQUENCE PUTFH GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     54 0.208127       10.3.2.11             34.239.233.47         NFS      240    V4 Call (Reply In 55) ACCESS FH: 0x15373615, [Check: RD LU MD XT DL XAR XAW XAL]
+
+Frame 54: 240 bytes on wire (1920 bits), 240 bytes captured (1920 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 4077, Ack: 3981, Len: 188
+Remote Procedure Call, Type:Call XID:0x78d9aea3
+Network File System, Ops(4): SEQUENCE, PUTFH, ACCESS, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     55 0.216712       34.239.233.47         10.3.2.11             NFS      224    V4 Reply (Call In 54) ACCESS, [Access Denied: MD XT DL XAW], [Allowed: RD LU XAR XAL]
+
+Frame 55: 224 bytes on wire (1792 bits), 224 bytes captured (1792 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 3981, Ack: 4265, Len: 172
+Remote Procedure Call, Type:Reply XID:0x78d9aea3
+Network File System, Ops(4): SEQUENCE PUTFH ACCESS GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     56 0.217002       10.3.2.11             34.239.233.47         NFS      252    V4 Call (Reply In 57) LOOKUP DH: 0x15373615/shared
+
+Frame 56: 252 bytes on wire (2016 bits), 252 bytes captured (2016 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 4265, Ack: 4153, Len: 200
+Remote Procedure Call, Type:Call XID:0x79d9aea3
+Network File System, Ops(5): SEQUENCE, PUTFH, LOOKUP, GETFH, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     57 0.225826       34.239.233.47         10.3.2.11             NFS      352    V4 Reply (Call In 56) LOOKUP
+
+Frame 57: 352 bytes on wire (2816 bits), 352 bytes captured (2816 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 4153, Ack: 4465, Len: 300
+Remote Procedure Call, Type:Reply XID:0x79d9aea3
+Network File System, Ops(5): SEQUENCE PUTFH LOOKUP GETFH GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     58 0.226142       10.3.2.11             34.239.233.47         NFS      252    V4 Call (Reply In 59) LOOKUP DH: 0x15373615/shared
+
+Frame 58: 252 bytes on wire (2016 bits), 252 bytes captured (2016 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 4465, Ack: 4453, Len: 200
+Remote Procedure Call, Type:Call XID:0x7ad9aea3
+Network File System, Ops(5): SEQUENCE, PUTFH, LOOKUP, GETFH, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     59 0.234946       34.239.233.47         10.3.2.11             NFS      352    V4 Reply (Call In 58) LOOKUP
+
+Frame 59: 352 bytes on wire (2816 bits), 352 bytes captured (2816 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 4453, Ack: 4665, Len: 300
+Remote Procedure Call, Type:Reply XID:0x7ad9aea3
+Network File System, Ops(5): SEQUENCE PUTFH LOOKUP GETFH GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     60 0.235426       10.3.2.11             34.239.233.47         NFS      236    V4 Call (Reply In 61) GETATTR FH: 0x49e23f3e
+
+Frame 60: 236 bytes on wire (1888 bits), 236 bytes captured (1888 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 4665, Ack: 4753, Len: 184
+Remote Procedure Call, Type:Call XID:0x7bd9aea3
+Network File System, Ops(3): SEQUENCE, PUTFH, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     61 0.242676       34.239.233.47         10.3.2.11             NFS      220    V4 Reply (Call In 60) GETATTR
+
+Frame 61: 220 bytes on wire (1760 bits), 220 bytes captured (1760 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 4753, Ack: 4849, Len: 168
+Remote Procedure Call, Type:Reply XID:0x7bd9aea3
+Network File System, Ops(3): SEQUENCE PUTFH GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     62 0.242866       10.3.2.11             34.239.233.47         NFS      236    V4 Call (Reply In 63) GETATTR FH: 0x49e23f3e
+
+Frame 62: 236 bytes on wire (1888 bits), 236 bytes captured (1888 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 4849, Ack: 4921, Len: 184
+Remote Procedure Call, Type:Call XID:0x7cd9aea3
+Network File System, Ops(3): SEQUENCE, PUTFH, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     63 0.249799       34.239.233.47         10.3.2.11             NFS      224    V4 Reply (Call In 62) GETATTR
+
+Frame 63: 224 bytes on wire (1792 bits), 224 bytes captured (1792 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 4921, Ack: 5033, Len: 172
+Remote Procedure Call, Type:Reply XID:0x7cd9aea3
+Network File System, Ops(3): SEQUENCE PUTFH GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     64 0.250101       10.3.2.11             34.239.233.47         NFS      228    V4 Call (Reply In 65) GETATTR FH: 0x49e23f3e
+
+Frame 64: 228 bytes on wire (1824 bits), 228 bytes captured (1824 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 5033, Ack: 5093, Len: 176
+Remote Procedure Call, Type:Call XID:0x7dd9aea3
+Network File System, Ops(3): SEQUENCE, PUTFH, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     65 0.264523       34.239.233.47         10.3.2.11             NFS      172    V4 Reply (Call In 64) GETATTR
+
+Frame 65: 172 bytes on wire (1376 bits), 172 bytes captured (1376 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 5093, Ack: 5209, Len: 120
+Remote Procedure Call, Type:Reply XID:0x7dd9aea3
+Network File System, Ops(3): SEQUENCE PUTFH GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     66 0.264855       10.3.2.11             34.239.233.47         NFS      224    V4 Call (Reply In 67) GETATTR FH: 0x49e23f3e
+
+Frame 66: 224 bytes on wire (1792 bits), 224 bytes captured (1792 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 5209, Ack: 5213, Len: 172
+Remote Procedure Call, Type:Call XID:0x7ed9aea3
+Network File System, Ops(3): SEQUENCE, PUTFH, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     67 0.273106       34.239.233.47         10.3.2.11             NFS      208    V4 Reply (Call In 66) GETATTR
+
+Frame 67: 208 bytes on wire (1664 bits), 208 bytes captured (1664 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 5213, Ack: 5381, Len: 156
+Remote Procedure Call, Type:Reply XID:0x7ed9aea3
+Network File System, Ops(3): SEQUENCE PUTFH GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     68 0.273659       10.3.2.11             34.239.233.47         NFS      236    V4 Call (Reply In 69) GETATTR FH: 0x49e23f3e
+
+Frame 68: 236 bytes on wire (1888 bits), 236 bytes captured (1888 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 5381, Ack: 5369, Len: 184
+Remote Procedure Call, Type:Call XID:0x7fd9aea3
+Network File System, Ops(3): SEQUENCE, PUTFH, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     69 0.285815       34.239.233.47         10.3.2.11             NFS      220    V4 Reply (Call In 68) GETATTR
+
+Frame 69: 220 bytes on wire (1760 bits), 220 bytes captured (1760 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 5369, Ack: 5565, Len: 168
+Remote Procedure Call, Type:Reply XID:0x7fd9aea3
+Network File System, Ops(3): SEQUENCE PUTFH GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     70 0.286114       10.3.2.11             34.239.233.47         NFS      232    V4 Call (Reply In 71) GETATTR FH: 0x49e23f3e
+
+Frame 70: 232 bytes on wire (1856 bits), 232 bytes captured (1856 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 5565, Ack: 5537, Len: 180
+Remote Procedure Call, Type:Call XID:0x80d9aea3
+Network File System, Ops(3): SEQUENCE, PUTFH, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     71 0.292863       34.239.233.47         10.3.2.11             NFS      304    V4 Reply (Call In 70) GETATTR
+
+Frame 71: 304 bytes on wire (2432 bits), 304 bytes captured (2432 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 5537, Ack: 5745, Len: 252
+Remote Procedure Call, Type:Reply XID:0x80d9aea3
+Network File System, Ops(3): SEQUENCE PUTFH GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     72 0.301568       10.3.2.11             34.239.233.47         NFS      292    V4 Call (Reply In 73) ACCESS FH: 0x49e23f3e, [Check: RD LU MD XT DL XAR XAW XAL]
+
+Frame 72: 292 bytes on wire (2336 bits), 292 bytes captured (2336 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 5745, Ack: 5789, Len: 240
+Remote Procedure Call, Type:Call XID:0x81d9aea3
+Network File System, Ops(4): SEQUENCE, PUTFH, ACCESS, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     73 0.310838       34.239.233.47         10.3.2.11             NFS      224    V4 Reply (Call In 72) ACCESS, [Allowed: RD LU MD XT DL XAR XAW XAL]
+
+Frame 73: 224 bytes on wire (1792 bits), 224 bytes captured (1792 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 5789, Ack: 5985, Len: 172
+Remote Procedure Call, Type:Reply XID:0x81d9aea3
+Network File System, Ops(4): SEQUENCE PUTFH ACCESS GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     74 0.311340       10.3.2.11             34.239.233.47         NFS      304    V4 Call (Reply In 75) LOOKUP DH: 0x49e23f3e/.Trash
+
+Frame 74: 304 bytes on wire (2432 bits), 304 bytes captured (2432 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 5985, Ack: 5961, Len: 252
+Remote Procedure Call, Type:Call XID:0x82d9aea3
+Network File System, Ops(5): SEQUENCE, PUTFH, LOOKUP, GETFH, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     75 0.318742       34.239.233.47         10.3.2.11             NFS      152    V4 Reply (Call In 74) LOOKUP Status: NFS4ERR_NOENT
+
+Frame 75: 152 bytes on wire (1216 bits), 152 bytes captured (1216 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 5961, Ack: 6237, Len: 100
+Remote Procedure Call, Type:Reply XID:0x82d9aea3
+Network File System, Ops(3): SEQUENCE PUTFH LOOKUP(NFS4ERR_NOENT)
+
+No.     Time           Source                Destination           Protocol Length Info
+     76 0.320157       10.3.2.11             34.239.233.47         NFS      308    V4 Call (Reply In 77) LOOKUP DH: 0x49e23f3e/.Trash-1000
+
+Frame 76: 308 bytes on wire (2464 bits), 308 bytes captured (2464 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 6237, Ack: 6061, Len: 256
+Remote Procedure Call, Type:Call XID:0x83d9aea3
+Network File System, Ops(5): SEQUENCE, PUTFH, LOOKUP, GETFH, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     77 0.327728       34.239.233.47         10.3.2.11             NFS      152    V4 Reply (Call In 76) LOOKUP Status: NFS4ERR_NOENT
+
+Frame 77: 152 bytes on wire (1216 bits), 152 bytes captured (1216 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 6061, Ack: 6493, Len: 100
+Remote Procedure Call, Type:Reply XID:0x83d9aea3
+Network File System, Ops(3): SEQUENCE PUTFH LOOKUP(NFS4ERR_NOENT)
+
+No.     Time           Source                Destination           Protocol Length Info
+     78 0.351706       10.3.2.11             34.239.233.47         NFS      284    V4 Call (Reply In 79) GETATTR FH: 0x49e23f3e
+
+Frame 78: 284 bytes on wire (2272 bits), 284 bytes captured (2272 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 6493, Ack: 6161, Len: 232
+Remote Procedure Call, Type:Call XID:0x84d9aea3
+Network File System, Ops(3): SEQUENCE, PUTFH, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     79 0.360115       34.239.233.47         10.3.2.11             NFS      216    V4 Reply (Call In 78) GETATTR
+
+Frame 79: 216 bytes on wire (1728 bits), 216 bytes captured (1728 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 6161, Ack: 6725, Len: 164
+Remote Procedure Call, Type:Reply XID:0x84d9aea3
+Network File System, Ops(3): SEQUENCE PUTFH GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     80 0.405755       10.3.2.11             34.239.233.47         TCP      52     691 → 2049 [ACK] Seq=6725 Ack=6325 Win=65536 Len=0 TSval=2453433354 TSecr=3126898795
+
+Frame 80: 52 bytes on wire (416 bits), 52 bytes captured (416 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 6725, Ack: 6325, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     81 8.862091       10.3.2.11             34.239.233.47         NFS      284    V4 Call (Reply In 82) GETATTR FH: 0x49e23f3e
+
+Frame 81: 284 bytes on wire (2272 bits), 284 bytes captured (2272 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 6725, Ack: 6325, Len: 232
+Remote Procedure Call, Type:Call XID:0x85d9aea3
+Network File System, Ops(3): SEQUENCE, PUTFH, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     82 8.870830       34.239.233.47         10.3.2.11             NFS      304    V4 Reply (Call In 81) GETATTR
+
+Frame 82: 304 bytes on wire (2432 bits), 304 bytes captured (2432 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 6325, Ack: 6957, Len: 252
+Remote Procedure Call, Type:Reply XID:0x85d9aea3
+Network File System, Ops(3): SEQUENCE PUTFH GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     83 8.870893       10.3.2.11             34.239.233.47         TCP      52     691 → 2049 [ACK] Seq=6957 Ack=6577 Win=65536 Len=0 TSval=2453441819 TSecr=3126907306
+
+Frame 83: 52 bytes on wire (416 bits), 52 bytes captured (416 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 6957, Ack: 6577, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     84 8.871286       10.3.2.11             34.239.233.47         NFS      308    V4 Call (Reply In 85) READDIR FH: 0x49e23f3e
+
+Frame 84: 308 bytes on wire (2464 bits), 308 bytes captured (2464 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 6957, Ack: 6577, Len: 256
+Remote Procedure Call, Type:Call XID:0x86d9aea3
+Network File System, Ops(3): SEQUENCE, PUTFH, READDIR
+
+No.     Time           Source                Destination           Protocol Length Info
+     85 8.882410       34.239.233.47         10.3.2.11             NFS      168    V4 Reply (Call In 84) READDIR
+
+Frame 85: 168 bytes on wire (1344 bits), 168 bytes captured (1344 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 6577, Ack: 7213, Len: 116
+Remote Procedure Call, Type:Reply XID:0x86d9aea3
+Network File System, Ops(3): SEQUENCE PUTFH READDIR
+
+No.     Time           Source                Destination           Protocol Length Info
+     86 8.925744       10.3.2.11             34.239.233.47         TCP      52     691 → 2049 [ACK] Seq=7213 Ack=6693 Win=65536 Len=0 TSval=2453441874 TSecr=3126907317
+
+Frame 86: 52 bytes on wire (416 bits), 52 bytes captured (416 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 7213, Ack: 6693, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     87 26.065469      10.3.2.11             34.239.233.47         NFS      284    V4 Call (Reply In 88) GETATTR FH: 0x49e23f3e
+
+Frame 87: 284 bytes on wire (2272 bits), 284 bytes captured (2272 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 7213, Ack: 6693, Len: 232
+Remote Procedure Call, Type:Call XID:0x87d9aea3
+Network File System, Ops(3): SEQUENCE, PUTFH, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     88 26.072928      34.239.233.47         10.3.2.11             NFS      304    V4 Reply (Call In 87) GETATTR
+
+Frame 88: 304 bytes on wire (2432 bits), 304 bytes captured (2432 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 6693, Ack: 7445, Len: 252
+Remote Procedure Call, Type:Reply XID:0x87d9aea3
+Network File System, Ops(3): SEQUENCE PUTFH GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     89 26.072952      10.3.2.11             34.239.233.47         TCP      52     691 → 2049 [ACK] Seq=7445 Ack=6945 Win=65536 Len=0 TSval=2453459021 TSecr=3126924507
+
+Frame 89: 52 bytes on wire (416 bits), 52 bytes captured (416 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 7445, Ack: 6945, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     90 26.081105      10.3.2.11             34.239.233.47         NFS      312    V4 Call (Reply In 91) LOOKUP DH: 0x49e23f3e/not_the_flag.txt
+
+Frame 90: 312 bytes on wire (2496 bits), 312 bytes captured (2496 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 7445, Ack: 6945, Len: 260
+Remote Procedure Call, Type:Call XID:0x88d9aea3
+Network File System, Ops(5): SEQUENCE, PUTFH, LOOKUP, GETFH, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     91 26.089619      34.239.233.47         10.3.2.11             NFS      152    V4 Reply (Call In 90) LOOKUP Status: NFS4ERR_NOENT
+
+Frame 91: 152 bytes on wire (1216 bits), 152 bytes captured (1216 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 6945, Ack: 7705, Len: 100
+Remote Procedure Call, Type:Reply XID:0x88d9aea3
+Network File System, Ops(3): SEQUENCE PUTFH LOOKUP(NFS4ERR_NOENT)
+
+No.     Time           Source                Destination           Protocol Length Info
+     92 26.089845      10.3.2.11             34.239.233.47         NFS      408    V4 Call (Reply In 93) OPEN DH: 0x49e23f3e/not_the_flag.txt
+
+Frame 92: 408 bytes on wire (3264 bits), 408 bytes captured (3264 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 7705, Ack: 7045, Len: 356
+Remote Procedure Call, Type:Call XID:0x89d9aea3
+Network File System, Ops(5): SEQUENCE, PUTFH, OPEN, GETFH, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     93 26.100657      34.239.233.47         10.3.2.11             NFS      412    V4 Reply (Call In 92) OPEN StateID: 0xa278
+
+Frame 93: 412 bytes on wire (3296 bits), 412 bytes captured (3296 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 7045, Ack: 8061, Len: 360
+Remote Procedure Call, Type:Reply XID:0x89d9aea3
+Network File System, Ops(5): SEQUENCE PUTFH OPEN GETFH GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     94 26.100840      10.3.2.11             34.239.233.47         NFS      336    V4 Call (Reply In 95) SETATTR FH: 0x3a7e2c6a
+
+Frame 94: 336 bytes on wire (2688 bits), 336 bytes captured (2688 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 8061, Ack: 7405, Len: 284
+Remote Procedure Call, Type:Call XID:0x8ad9aea3
+Network File System, Ops(4): SEQUENCE, PUTFH, SETATTR, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     95 26.112730      34.239.233.47         10.3.2.11             NFS      316    V4 Reply (Call In 94) SETATTR
+
+Frame 95: 316 bytes on wire (2528 bits), 316 bytes captured (2528 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 7405, Ack: 8345, Len: 264
+Remote Procedure Call, Type:Reply XID:0x8ad9aea3
+Network File System, Ops(4): SEQUENCE PUTFH SETATTR GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     96 26.113015      10.3.2.11             34.239.233.47         NFS      560    V4 Call (Reply In 97) WRITE StateID: 0xa7d5 Offset: 0 Len: 229
+
+Frame 96: 560 bytes on wire (4480 bits), 560 bytes captured (4480 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 8345, Ack: 7669, Len: 508
+Remote Procedure Call, Type:Call XID:0x8bd9aea3
+Network File System, Ops(4): SEQUENCE, PUTFH, WRITE, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     97 26.124610      34.239.233.47         10.3.2.11             NFS      232    V4 Reply (Call In 96) WRITE
+
+Frame 97: 232 bytes on wire (1856 bits), 232 bytes captured (1856 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 7669, Ack: 8853, Len: 180
+Remote Procedure Call, Type:Reply XID:0x8bd9aea3
+Network File System, Ops(4): SEQUENCE PUTFH WRITE GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+     98 26.124705      10.3.2.11             34.239.233.47         NFS      556    V4 Call (Reply In 99) GETATTR FH: 0x3a7e2c6a  ; V4 Call (Reply In 100) CLOSE StateID: 0xa278
+
+Frame 98: 556 bytes on wire (4448 bits), 556 bytes captured (4448 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 8853, Ack: 7849, Len: 504
+Remote Procedure Call, Type:Call XID:0x8cd9aea3
+Network File System, Ops(3): SEQUENCE, PUTFH, GETATTR
+Remote Procedure Call, Type:Call XID:0x8dd9aea3
+Network File System, Ops(4): SEQUENCE, PUTFH, GETATTR, CLOSE
+
+No.     Time           Source                Destination           Protocol Length Info
+     99 26.130770      34.239.233.47         10.3.2.11             NFS      296    V4 Reply (Call In 98) GETATTR
+
+Frame 99: 296 bytes on wire (2368 bits), 296 bytes captured (2368 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 7849, Ack: 9357, Len: 244
+Remote Procedure Call, Type:Reply XID:0x8cd9aea3
+Network File System, Ops(3): SEQUENCE PUTFH GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+    100 26.130770      34.239.233.47         10.3.2.11             NFS      240    V4 Reply (Call In 98) CLOSE
+
+Frame 100: 240 bytes on wire (1920 bits), 240 bytes captured (1920 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 8093, Ack: 9357, Len: 188
+Remote Procedure Call, Type:Reply XID:0x8dd9aea3
+Network File System, Ops(4): SEQUENCE PUTFH GETATTR CLOSE
+
+No.     Time           Source                Destination           Protocol Length Info
+    101 26.130907      10.3.2.11             34.239.233.47         TCP      52     691 → 2049 [ACK] Seq=9357 Ack=8281 Win=65536 Len=0 TSval=2453459079 TSecr=3126924566
+
+Frame 101: 52 bytes on wire (416 bits), 52 bytes captured (416 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 9357, Ack: 8281, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    102 30.071839      10.3.2.11             34.239.233.47         NFS      284    V4 Call (Reply In 103) GETATTR FH: 0x49e23f3e
+
+Frame 102: 284 bytes on wire (2272 bits), 284 bytes captured (2272 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 9357, Ack: 8281, Len: 232
+Remote Procedure Call, Type:Call XID:0x8ed9aea3
+Network File System, Ops(3): SEQUENCE, PUTFH, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+    103 30.080663      34.239.233.47         10.3.2.11             NFS      304    V4 Reply (Call In 102) GETATTR
+
+Frame 103: 304 bytes on wire (2432 bits), 304 bytes captured (2432 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 8281, Ack: 9589, Len: 252
+Remote Procedure Call, Type:Reply XID:0x8ed9aea3
+Network File System, Ops(3): SEQUENCE PUTFH GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+    104 30.080900      10.3.2.11             34.239.233.47         NFS      304    V4 Call (Reply In 105) LOOKUP DH: 0x49e23f3e/flag.png
+
+Frame 104: 304 bytes on wire (2432 bits), 304 bytes captured (2432 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 9589, Ack: 8533, Len: 252
+Remote Procedure Call, Type:Call XID:0x8fd9aea3
+Network File System, Ops(5): SEQUENCE, PUTFH, LOOKUP, GETFH, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+    105 30.089746      34.239.233.47         10.3.2.11             NFS      152    V4 Reply (Call In 104) LOOKUP Status: NFS4ERR_NOENT
+
+Frame 105: 152 bytes on wire (1216 bits), 152 bytes captured (1216 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 8533, Ack: 9841, Len: 100
+Remote Procedure Call, Type:Reply XID:0x8fd9aea3
+Network File System, Ops(3): SEQUENCE PUTFH LOOKUP(NFS4ERR_NOENT)
+
+No.     Time           Source                Destination           Protocol Length Info
+    106 30.090126      10.3.2.11             34.239.233.47         NFS      400    V4 Call (Reply In 107) OPEN DH: 0x49e23f3e/flag.png
+
+Frame 106: 400 bytes on wire (3200 bits), 400 bytes captured (3200 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 9841, Ack: 8633, Len: 348
+Remote Procedure Call, Type:Call XID:0x90d9aea3
+Network File System, Ops(5): SEQUENCE, PUTFH, OPEN, GETFH, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+    107 30.100677      34.239.233.47         10.3.2.11             NFS      412    V4 Reply (Call In 106) OPEN StateID: 0x87b5
+
+Frame 107: 412 bytes on wire (3296 bits), 412 bytes captured (3296 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 8633, Ack: 10189, Len: 360
+Remote Procedure Call, Type:Reply XID:0x90d9aea3
+Network File System, Ops(5): SEQUENCE PUTFH OPEN GETFH GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+    108 30.100916      10.3.2.11             34.239.233.47         NFS      336    V4 Call (Reply In 109) SETATTR FH: 0xbc90fb31
+
+Frame 108: 336 bytes on wire (2688 bits), 336 bytes captured (2688 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 10189, Ack: 8993, Len: 284
+Remote Procedure Call, Type:Call XID:0x91d9aea3
+Network File System, Ops(4): SEQUENCE, PUTFH, SETATTR, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+    109 30.111720      34.239.233.47         10.3.2.11             NFS      316    V4 Reply (Call In 108) SETATTR
+
+Frame 109: 316 bytes on wire (2528 bits), 316 bytes captured (2528 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 8993, Ack: 10473, Len: 264
+Remote Procedure Call, Type:Reply XID:0x91d9aea3
+Network File System, Ops(4): SEQUENCE PUTFH SETATTR GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+    110 30.111966      10.3.2.11             34.239.233.47         TCP      2268   691 → 2049 [PSH, ACK] Seq=10473 Ack=9257 Win=65536 Len=2216 TSval=2453463060 TSecr=3126928547 [TCP PDU reassembled in 111]
+
+Frame 110: 2268 bytes on wire (18144 bits), 2268 bytes captured (18144 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 10473, Ack: 9257, Len: 2216
+
+No.     Time           Source                Destination           Protocol Length Info
+    111 30.111978      10.3.2.11             34.239.233.47         NFS      484    V4 Call (Reply In 113) WRITE StateID: 0x8218 Offset: 0 Len: 2372
+
+Frame 111: 484 bytes on wire (3872 bits), 484 bytes captured (3872 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 12689, Ack: 9257, Len: 432
+[2 Reassembled TCP Segments (2648 bytes): #110(2216), #111(432)]
+Remote Procedure Call, Type:Call XID:0x92d9aea3
+Network File System, Ops(4): SEQUENCE, PUTFH, WRITE, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+    112 30.118812      34.239.233.47         10.3.2.11             TCP      52     2049 → 691 [ACK] Seq=9257 Ack=12689 Win=24320 Len=0 TSval=3126928554 TSecr=2453463060
+
+Frame 112: 52 bytes on wire (416 bits), 52 bytes captured (416 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 9257, Ack: 12689, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    113 30.124821      34.239.233.47         10.3.2.11             NFS      232    V4 Reply (Call In 111) WRITE
+
+Frame 113: 232 bytes on wire (1856 bits), 232 bytes captured (1856 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 9257, Ack: 13121, Len: 180
+Remote Procedure Call, Type:Reply XID:0x92d9aea3
+Network File System, Ops(4): SEQUENCE PUTFH WRITE GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+    114 30.125216      10.3.2.11             34.239.233.47         NFS      292    V4 Call (Reply In 117) GETATTR FH: 0xbc90fb31
+
+Frame 114: 292 bytes on wire (2336 bits), 292 bytes captured (2336 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 13121, Ack: 9437, Len: 240
+Remote Procedure Call, Type:Call XID:0x93d9aea3
+Network File System, Ops(3): SEQUENCE, PUTFH, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+    115 30.125252      10.3.2.11             34.239.233.47         NFS      316    V4 Call (Reply In 118) CLOSE StateID: 0x87b5
+
+Frame 115: 316 bytes on wire (2528 bits), 316 bytes captured (2528 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 13361, Ack: 9437, Len: 264
+Remote Procedure Call, Type:Call XID:0x94d9aea3
+Network File System, Ops(4): SEQUENCE, PUTFH, GETATTR, CLOSE
+
+No.     Time           Source                Destination           Protocol Length Info
+    116 30.133839      34.239.233.47         10.3.2.11             TCP      52     2049 → 691 [ACK] Seq=9437 Ack=13625 Win=24320 Len=0 TSval=3126928569 TSecr=2453463073
+
+Frame 116: 52 bytes on wire (416 bits), 52 bytes captured (416 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 9437, Ack: 13625, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    117 30.133891      34.239.233.47         10.3.2.11             NFS      296    V4 Reply (Call In 114) GETATTR
+
+Frame 117: 296 bytes on wire (2368 bits), 296 bytes captured (2368 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 9437, Ack: 13625, Len: 244
+Remote Procedure Call, Type:Reply XID:0x93d9aea3
+Network File System, Ops(3): SEQUENCE PUTFH GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+    118 30.133925      34.239.233.47         10.3.2.11             NFS      240    V4 Reply (Call In 115) CLOSE
+
+Frame 118: 240 bytes on wire (1920 bits), 240 bytes captured (1920 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 9681, Ack: 13625, Len: 188
+Remote Procedure Call, Type:Reply XID:0x94d9aea3
+Network File System, Ops(4): SEQUENCE PUTFH GETATTR CLOSE
+
+No.     Time           Source                Destination           Protocol Length Info
+    119 30.134048      10.3.2.11             34.239.233.47         TCP      52     691 → 2049 [ACK] Seq=13625 Ack=9869 Win=65536 Len=0 TSval=2453463082 TSecr=3126928569
+
+Frame 119: 52 bytes on wire (416 bits), 52 bytes captured (416 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 13625, Ack: 9869, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    120 31.326345      10.3.2.11             34.239.233.47         NFS      284    V4 Call (Reply In 121) GETATTR FH: 0x49e23f3e
+
+Frame 120: 284 bytes on wire (2272 bits), 284 bytes captured (2272 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 13625, Ack: 9869, Len: 232
+Remote Procedure Call, Type:Call XID:0x95d9aea3
+Network File System, Ops(3): SEQUENCE, PUTFH, GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+    121 31.334093      34.239.233.47         10.3.2.11             NFS      304    V4 Reply (Call In 120) GETATTR
+
+Frame 121: 304 bytes on wire (2432 bits), 304 bytes captured (2432 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 9869, Ack: 13857, Len: 252
+Remote Procedure Call, Type:Reply XID:0x95d9aea3
+Network File System, Ops(3): SEQUENCE PUTFH GETATTR
+
+No.     Time           Source                Destination           Protocol Length Info
+    122 31.377794      10.3.2.11             34.239.233.47         TCP      52     691 → 2049 [ACK] Seq=13857 Ack=10121 Win=65536 Len=0 TSval=2453464326 TSecr=3126929769
+
+Frame 122: 52 bytes on wire (416 bits), 52 bytes captured (416 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 13857, Ack: 10121, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    123 37.349914      10.3.2.11             34.239.233.47         NFS      160    V4 Call (Reply In 124) DESTROY_SESSION
+
+Frame 123: 160 bytes on wire (1280 bits), 160 bytes captured (1280 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 13857, Ack: 10121, Len: 108
+Remote Procedure Call, Type:Call XID:0x96d9aea3
+Network File System, Ops(1): DESTROY_SESSION
+
+No.     Time           Source                Destination           Protocol Length Info
+    124 37.359505      34.239.233.47         10.3.2.11             NFS      100    V4 Reply (Call In 123) DESTROY_SESSION
+
+Frame 124: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 10121, Ack: 13965, Len: 48
+Remote Procedure Call, Type:Reply XID:0x96d9aea3
+Network File System, Ops(1): DESTROY_SESSION
+
+No.     Time           Source                Destination           Protocol Length Info
+    125 37.359531      10.3.2.11             34.239.233.47         TCP      52     691 → 2049 [ACK] Seq=13965 Ack=10169 Win=65536 Len=0 TSval=2453470308 TSecr=3126935794
+
+Frame 125: 52 bytes on wire (416 bits), 52 bytes captured (416 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 13965, Ack: 10169, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    126 37.359610      10.3.2.11             34.239.233.47         NFS      152    V4 Call (Reply In 127) DESTROY_CLIENTID
+
+Frame 126: 152 bytes on wire (1216 bits), 152 bytes captured (1216 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 13965, Ack: 10169, Len: 100
+Remote Procedure Call, Type:Call XID:0x97d9aea3
+Network File System, Ops(1): DESTROY_CLIENTID
+
+No.     Time           Source                Destination           Protocol Length Info
+    127 37.371305      34.239.233.47         10.3.2.11             NFS      100    V4 Reply (Call In 126) DESTROY_CLIENTID
+
+Frame 127: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 10169, Ack: 14065, Len: 48
+Remote Procedure Call, Type:Reply XID:0x97d9aea3
+Network File System, Ops(1): DESTROY_CLIENTID
+
+No.     Time           Source                Destination           Protocol Length Info
+    128 37.371623      10.3.2.11             34.239.233.47         TCP      52     691 → 2049 [FIN, ACK] Seq=14065 Ack=10217 Win=65536 Len=0 TSval=2453470320 TSecr=3126935805
+
+Frame 128: 52 bytes on wire (416 bits), 52 bytes captured (416 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 14065, Ack: 10217, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    129 37.378943      34.239.233.47         10.3.2.11             TCP      52     2049 → 691 [FIN, ACK] Seq=10217 Ack=14066 Win=24320 Len=0 TSval=3126935814 TSecr=2453470320
+
+Frame 129: 52 bytes on wire (416 bits), 52 bytes captured (416 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 34.239.233.47, Dst: 10.3.2.11
+Transmission Control Protocol, Src Port: 2049, Dst Port: 691, Seq: 10217, Ack: 14066, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    130 37.378974      10.3.2.11             34.239.233.47         TCP      52     691 → 2049 [ACK] Seq=14066 Ack=10218 Win=65536 Len=0 TSval=2453470327 TSecr=3126935814
+
+Frame 130: 52 bytes on wire (416 bits), 52 bytes captured (416 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.3.2.11, Dst: 34.239.233.47
+Transmission Control Protocol, Src Port: 691, Dst Port: 2049, Seq: 14066, Ack: 10218, Len: 0

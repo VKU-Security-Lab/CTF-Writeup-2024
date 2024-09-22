@@ -1,0 +1,102 @@
+body {
+    background-color: #fff8dc; /* Cornsilk background */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #d2691e; /* Chocolate text */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fffacd; /* LemonChiffon background */
+    border: 1px solid #deb887; /* BurlyWood border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #ff4500; /* OrangeRed */
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    color: #ff4500; /* OrangeRed */
+    text-align: center;
+}
+
+p {
+    font-size: 1.2em;
+    text-align: center;
+    color: #8b4513; /* SaddleBrown */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    font-size: 1.2em;
+    color: #8b4513; /* SaddleBrown */
+    margin: 5px 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #ff4500; /* OrangeRed */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #ff6347; /* Tomato */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label, input, textarea {
+    margin: 5px 0;
+    color: #d2691e; /* Chocolate */
+}
+
+input[type="text"], input[type="password"], textarea {
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #deb887; /* BurlyWood border */
+    border-radius: 5px;
+    background-color: #fffacd; /* LemonChiffon background */
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #ff4500; /* OrangeRed */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff6347; /* Tomato */
+}
+
+.menu, .testimonials, .contact {
+    width: 80%;
+    margin: 20px auto; /* Centering the elements */
+    padding: 20px;
+    background-color: #fffacd; /* LemonChiffon background */
+    border: 1px solid #deb887; /* BurlyWood border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

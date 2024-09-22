@@ -1,0 +1,23 @@
+/ # echo -e "GET / HTTP/1.1\r\nHost: 192.168.0.59:43254\r\nAuthorization: Basic YWRtaW46cHJldHR5cGxlYXNlbGV0bWVpbg==\r\nConnection: close\r\n\r\n" | 
+nc 192.168.0.59 43254
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 14 Sep 2024 06:02:54 GMT
+Content-Type: text/html
+Content-Length: 272
+Last-Modified: Tue, 12 Mar 2024 13:20:28 GMT
+Connection: close
+ETag: "65f0569c-110"
+Accept-Ranges: bytes
+
+###########
+
+You found me! That's PART 2 of 3 completed.
+
+Continue onwards.
+Your final machine is at 192.168.0.132, port number 10.
+
+Hint: Ogres have layers, and so do protocol suites. Check them all.
+If you'd like an additional hint, it's on this webserver.
+
+###########

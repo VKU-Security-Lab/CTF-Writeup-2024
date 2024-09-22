@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home - Sunrise Breakfast Diner</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Sunrise Breakfast Diner</h1>
+        <p>Start your day with our delicious breakfast specials!</p>
+        {% if 'username' in session %}
+            <a href="{{ url_for('profile') }}" class="button">Profile</a>
+            <a href="{{ url_for('logout') }}" class="button">Logout</a>
+        {% else %}
+            <a href="{{ url_for('login') }}" class="button">Login</a>
+            <a href="{{ url_for('register') }}" class="button">Register</a>
+        {% endif %}
+    </div>
+    <div class="menu">
+        <h2>Our Menu</h2>
+        <ul>
+            <li>Pancakes - $5.99</li>
+            <li>Waffles - $6.99</li>
+            <li>Omelette - $7.99</li>
+            <li>French Toast - $5.99</li>
+            <li>Breakfast Burrito - $8.99</li>
+        </ul>
+    </div>
+    <div class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <p>"Best breakfast in town!" - John Doe</p>
+        <p>"Amazing pancakes and great service." - Jane Smith</p>
+    </div>
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@sunrisediner.localhost</p>
+        <p>Phone: (123) 555-7890</p>
+    </div>
+</body>
+</html>

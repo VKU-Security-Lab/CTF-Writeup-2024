@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2 class="text-center">Our Potions</h2>
+<div class="row">
+    <div class="col-md-4 mt-4" id="product1">
+        <div class="card">
+            <img src="/static/images/panacea_elixir.png" class="card-img-top" alt="Panacea Elixir">
+            <div class="card-body">
+                <h5 class="card-title">Panacea Elixir</h5>
+                <p class="card-text">Instantly heals minor wounds or injuries.</p>
+                <button onclick="fetchProductDetails('panacea_elixir')" class="btn btn-primary">More Info</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mt-4" id="product1">
+        <div class="card">
+            <img src="/static/images/specter_veil.png" class="card-img-top" alt="Specter Veil">
+            <div class="card-body">
+                <h5 class="card-title">Specter Veil</h5>
+                <p class="card-text">Inbues the user with magical invisibility.</p>
+                <button onclick="fetchProductDetails('specter_veil')" class="btn btn-primary">More Info</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mt-4" id="product1">
+        <div class="card">
+            <img src="/static/images/titans_brew.png" class="card-img-top" alt="Titan's Brew">
+            <div class="card-body">
+                <h5 class="card-title">Titan's Brew</h5>
+                <p class="card-text">Miraculously provides incredible strength.</p>
+                <button onclick="fetchProductDetails('titans_brew')" class="btn btn-primary">More Info</button>
+            </div>
+        </div>
+    </div>
+    <!-- Repeat for each product -->
+</div>
+
+<!-- Modal for Product Details -->
+<div class="modal fade" id="productDetailModal" tabindex="-1" aria-labelledby="productDetailModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="productDetailModalLabel">Product Detail</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" id="productDetail">
+        <!-- Product detail is dynamically inserted here -->
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+function fetchProductDetails(productName) {
+    fetch('/products/detail', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ file: productName })
+    })
+    .then(response => response.json())
+    .then(data => {
+        // Create a Showdown converter
+        var converter = new showdown.Converter(),
+            text      = data.content, // This is the markdown content from the API
+            html      = converter.makeHtml(text); // Convert markdown to HTML
+        
+        // Now, insert the HTML into the modal's body
+        document.getElementById('productDetail').innerHTML = html;
+        $('#productDetailModal').modal('show');
+    })
+    .catch(error => console.error('Error fetching product details:', error));
+}
+</script>
+{% endblock %}
